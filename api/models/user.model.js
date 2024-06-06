@@ -18,6 +18,11 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    profilePicture: {
+        type: String,
+        default: "https://tse1.mm.bing.net/th?id=OIP.Ghae4OEdb4UmC3hkqpFvLAHaGd&pid=Api&P=0&h=220",
+
+    }
 
 }, { timestamp: true });
 
